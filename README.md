@@ -17,5 +17,4 @@ giving teams safe, auditable tooling over production data.
 
 ### Reach me
 📫 joshua.ross1014@gmail.com
-<!-- Optional: add your LinkedIn, e.g. -->
-<!-- 💼 https://www.linkedin.com/in/your-handle -->
+💼 [LinkedIn](https://www.linkedin.com/in/joshua-ross-084264203/)
