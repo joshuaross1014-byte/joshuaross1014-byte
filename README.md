@@ -1,21 +1,27 @@
 # Hi, I'm Joshua 👋
 
-I work hands-on with enterprise **ERP and warehouse systems** (SAP Business One,
-a SQL Server-backed WMS) and build the **integration, automation, and data
-tooling** around them — turning brittle GUI-automation into API integrations and
-giving teams safe, auditable tooling over production data.
+I'm a techno-functional **ERP & WMS systems analyst** — hands-on across SAP Business One
+and Körber/Infios HighJump & KCloud WMS in a high-volume, multi-site distribution
+operation (~515K picks/month). I build the **integration, automation, and AI tooling**
+around those systems: turning brittle GUI-automation into API integrations, manual
+processes into audited production code, and giving teams safe, governed AI access to
+live operational data.
 
-🌱 Currently expanding toward **SAP S/4HANA** and **EWM**.
+🌱 Always building — recently: applied AI for operations (MCP), discrete-event
+simulation, and cross-platform ERP/WMS depth.
 
 ### What I work with
-`Python` · `T-SQL / SQL Server` · `SAP B1 Service Layer (OData)` · `SQLAlchemy` · `REST APIs` · `RPA migration`
+`SAP Business One (Service Layer/OData, HANA)` · `Körber/Infios HighJump & KCloud WMS` ·
+`T-SQL / SQL Server` · `SAP HANA SQL` · `Python` · `REST APIs` · `AI / Model Context Protocol (MCP)` ·
+`Automation Anywhere (RPA)` · `SSRS`
 
 ### Selected work
 
-*The AI-ops trilogy — detect, simulate, act:*
-- **[warehouse-twin](https://github.com/joshuaross1014-byte/warehouse-twin)** — a digital twin of a grocery DC: zero-dependency discrete-event simulation grounded in real WMS operating statistics, with an AI copilot that designs and runs the experiments (staffing sweeps, growth stress-tests, GTP automation payback, wave vs waveless release). **[Live interactive dashboard →](https://joshuaross1014-byte.github.io/warehouse-twin/)**
+*The AI-ops suite — detect, simulate, act, understand:*
+- **[warehouse-twin](https://github.com/joshuaross1014-byte/warehouse-twin)** — a digital twin of a grocery DC: zero-dependency discrete-event simulation grounded in real WMS operating statistics, with an AI copilot that designs and runs the experiments (staffing sweeps, growth stress-tests, automation payback, wave vs waveless release). **[Live interactive dashboard →](https://joshuaross1014-byte.github.io/warehouse-twin/)**
 - **[warehouse-aiops](https://github.com/joshuaross1014-byte/warehouse-aiops)** — self-healing warehouse operations with a human in the loop: detect → diagnose → propose → **approve** → execute → verify → runbook. Proposals are data, execution only on explicit approval, every outcome audited.
-- **[claude-ops-toolkit](https://github.com/joshuaross1014-byte/claude-ops-toolkit)** — AI-assisted ERP+WMS ops toolkit: diagnostic playbooks + always-on monitors (silent-when-clean) with Slack alerting over SAP B1 (HANA) and a SQL Server WMS.
+- **[sql-codebase-mcp](https://github.com/joshuaross1014-byte/sql-codebase-mcp)** — turn any SQL Server codebase into an AI-queryable dependency graph: "what breaks if I change this table?" answered in milliseconds. Field-tested on a production WMS codebase (515 procedures).
+- **[claude-ops-toolkit](https://github.com/joshuaross1014-byte/claude-ops-toolkit)** — AI diagnostic playbooks + always-on monitors (silent-when-clean) with Slack alerting over SAP B1 (HANA) and a SQL Server WMS.
 
 *Production engineering:*
 - **[python-automation](https://github.com/joshuaross1014-byte/python-automation)** — replaced legacy Automation Anywhere bots with direct SAP B1 Service Layer REST integrations (resilient clients, idempotent posting, dry-run).
