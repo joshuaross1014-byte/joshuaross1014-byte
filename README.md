@@ -17,16 +17,18 @@ simulation, and cross-platform ERP/WMS depth.
 
 ### Selected work
 
-*The AI-ops suite — detect, simulate, act, understand:*
-- **[warehouse-twin](https://github.com/joshuaross1014-byte/warehouse-twin)** — a digital twin of a grocery DC: zero-dependency discrete-event simulation grounded in real WMS operating statistics, with an AI copilot that designs and runs the experiments (staffing sweeps, growth stress-tests, automation payback, wave vs waveless release). **[Live interactive dashboard →](https://joshuaross1014-byte.github.io/warehouse-twin/)**
-- **[warehouse-aiops](https://github.com/joshuaross1014-byte/warehouse-aiops)** — self-healing warehouse operations with a human in the loop: detect → diagnose → propose → **approve** → execute → verify → runbook. Proposals are data, execution only on explicit approval, every outcome audited.
-- **[sql-codebase-mcp](https://github.com/joshuaross1014-byte/sql-codebase-mcp)** — turn any SQL Server codebase into an AI-queryable dependency graph: "what breaks if I change this table?" answered in milliseconds. Field-tested on a production WMS codebase (515 procedures).
-- **[claude-ops-toolkit](https://github.com/joshuaross1014-byte/claude-ops-toolkit)** — AI diagnostic playbooks + always-on monitors (silent-when-clean) with Slack alerting over SAP B1 (HANA) and a SQL Server WMS.
+My projects live in two monorepos — each subproject keeps its own README and full commit history.
 
-*Production engineering:*
-- **[python-automation](https://github.com/joshuaross1014-byte/python-automation)** — replaced legacy Automation Anywhere bots with direct SAP B1 Service Layer REST integrations (resilient clients, idempotent posting, dry-run).
-- **[wmspython](https://github.com/joshuaross1014-byte/wmspython)** — Python tooling over a SQL Server WMS: connection helpers, a live-query MCP server, environment diff reports, and a codebase-audit suite (with tests).
-- **[WMS-Stored-Procedures](https://github.com/joshuaross1014-byte/WMS-Stored-Procedures)** — production T-SQL I authored: idempotent wave planning, automated wave release with audit logging, and FEFO picking logic.
+**[warehouse-ai-lab](https://github.com/joshuaross1014-byte/warehouse-ai-lab)** — *the AI-ops suite: detect, simulate, act, understand*
+- **[warehouse-twin](https://github.com/joshuaross1014-byte/warehouse-ai-lab/tree/main/warehouse-twin)** — a digital twin of a grocery DC: zero-dependency discrete-event simulation grounded in real WMS operating statistics, with an AI copilot that designs and runs the experiments (staffing sweeps, growth stress-tests, automation payback, wave vs waveless release). **[Live interactive dashboard →](https://joshuaross1014-byte.github.io/warehouse-ai-lab/)**
+- **[warehouse-aiops](https://github.com/joshuaross1014-byte/warehouse-ai-lab/tree/main/warehouse-aiops)** — self-healing warehouse operations with a human in the loop: detect → diagnose → propose → **approve** → execute → verify → runbook. Proposals are data, execution only on explicit approval, every outcome audited.
+- **[sql-codebase-mcp](https://github.com/joshuaross1014-byte/warehouse-ai-lab/tree/main/sql-codebase-mcp)** — turn any SQL Server codebase into an AI-queryable dependency graph: "what breaks if I change this table?" answered in milliseconds. Field-tested on a production WMS codebase (515 procedures).
+- **[claude-ops-toolkit](https://github.com/joshuaross1014-byte/warehouse-ai-lab/tree/main/claude-ops-toolkit)** — AI diagnostic playbooks + always-on monitors (silent-when-clean) with Slack alerting over SAP B1 (HANA) and a SQL Server WMS.
+
+**[wms-engineering](https://github.com/joshuaross1014-byte/wms-engineering)** — *production engineering*
+- **[python-automation](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/python-automation)** — replaced legacy Automation Anywhere bots with direct SAP B1 Service Layer REST integrations (resilient clients, idempotent posting, dry-run).
+- **[wmspython](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/wmspython)** — Python tooling over a SQL Server WMS: connection helpers, a live-query MCP server, environment diff reports, and a codebase-audit suite (with tests).
+- **[WMS-Stored-Procedures](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/WMS-Stored-Procedures)** — production T-SQL I authored: idempotent wave planning, automated wave release with audit logging, and FEFO picking logic.
 
 ### Reach me
 📫 joshua.ross1014@gmail.com
