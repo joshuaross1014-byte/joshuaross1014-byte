@@ -17,7 +17,7 @@ simulation, and cross-platform ERP/WMS depth.
 
 ### Selected work
 
-My projects live in two monorepos — each subproject keeps its own README and full commit history.
+My projects live in two monorepos (plus a standalone SSRS reporting portal) — each subproject keeps its own README and full commit history.
 
 **[warehouse-ai-lab](https://github.com/joshuaross1014-byte/warehouse-ai-lab)** — *the AI-ops suite: detect, simulate, act, understand*
 - **[warehouse-twin](https://github.com/joshuaross1014-byte/warehouse-ai-lab/tree/main/warehouse-twin)** — a digital twin of a grocery DC: zero-dependency discrete-event simulation grounded in real WMS operating statistics, with an AI copilot that designs and runs the experiments (staffing sweeps, growth stress-tests, automation payback, wave vs waveless release). **[Live interactive dashboard →](https://joshuaross1014-byte.github.io/warehouse-ai-lab/)**
@@ -29,6 +29,9 @@ My projects live in two monorepos — each subproject keeps its own README and f
 - **[python-automation](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/python-automation)** — replaced legacy Automation Anywhere bots with direct SAP B1 Service Layer REST integrations (resilient clients, idempotent posting, dry-run).
 - **[wmspython](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/wmspython)** — Python tooling over a SQL Server WMS: connection helpers, a live-query MCP server, environment diff reports, and a codebase-audit suite (with tests).
 - **[WMS-Stored-Procedures](https://github.com/joshuaross1014-byte/wms-engineering/tree/main/WMS-Stored-Procedures)** — production T-SQL I authored: idempotent wave planning, automated wave release with audit logging, and FEFO picking logic.
+
+**[ssrs-reporting-portal](https://github.com/joshuaross1014-byte/ssrs-reporting-portal)** — *enterprise reporting, built from scratch*
+- A SQL Server Reporting Services portal I designed and stood up on a dedicated report server: **136 reports + 299 shared datasets across 14 projects**, spanning SAP Business One (HANA) and a SQL Server WMS — receiving/shipping reconciliation, inventory & expiry, unallocated-order, and stock-comparison reporting. Sanitized work sample.
 
 ### Reach me
 📫 joshua.ross1014@gmail.com
